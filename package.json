@@ -1,0 +1,19 @@
+{
+  "name": "taroticum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tomcorsi/KultTaroticaRoller.git",
+  "author": "tomcorsi <106984720+tomcorsi@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/taroticum.js",
+    "test": "jest --coverage --collectCoverageFrom='src/**/*.js'",
+    "lint": "npx prettier . --write --log-level silent",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "eslint": "^9.32.0",
+    "husky": "^9.1.7",
+    "jest": "^30.0.5"
+  }
+}
