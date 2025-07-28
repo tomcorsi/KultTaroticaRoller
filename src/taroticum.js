@@ -2,7 +2,7 @@ const suits = ["Teschi", "Rose", "Clessidre", "Falci di Luna", "Occhi"];
 
 const majorArcana = [
   "Anthropos",
-  "Demiurge",
+  "Il Demiurgo",
   "Astaroth",
   "Kether",
   "Chokmah",
