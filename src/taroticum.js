@@ -1,4 +1,4 @@
-const suits = ["Skulls", "Roses", "Hourglasses", "Crescents", "Eyes"];
+const suits = ["Teschi", "Rose", "Clessidre", "Falci di Luna", "Occhi"];
 
 const majorArcana = [
   "Anthropos",
@@ -29,7 +29,7 @@ const majorArcana = [
 const drawMinor = () => {
   const randomNumber = Math.floor(Math.random() * 9) + 1;
   const suit = Math.floor(Math.random() * 5);
-  return `${randomNumber} of ${suits[suit]}`;
+  return `${randomNumber} di ${suits[suit]}`;
 };
 
 const drawMajor = () => {
